@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_background_gradient"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/llToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <include
+
+            layout="@layout/custom_toolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+        </include>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_feedback"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/pb_loader"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+          >
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="15dp"
+            android:textColorHint="@android:color/black">
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/titlef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:paddingEnd="8dp">
+
+            <EditText
+                android:id="@+id/titleOfFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="Enter Feedback Title"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="14sp"
+                android:theme="@style/MyEditTextStyle1" />
+
+        </RelativeLayout>
+</RelativeLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="15dp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingRight="@dimen/_5sdp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:textColorHint="@android:color/black"
+   >
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Content"
+                        android:textSize="@dimen/_10sdp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="*"
+                        android:textColor="@color/scarletButtobBorder" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/content"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edittextbox"
+                        android:gravity="top"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textSize="@dimen/_12ssp"
+                        android:hint="FeedBack"
+                        android:inputType="textMultiLine"
+                        android:textColorHint="@color/black"
+                        android:textColorHighlight="@color/black"
+                        android:paddingBottom="25dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20sdp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_alignParentBottom="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardCornerRadius="@dimen/_7sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_42sdp"
+                    android:gravity="center"
+                    android:text="Save"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</RelativeLayout>

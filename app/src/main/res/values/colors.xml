@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#CDAA1925</color>
+    <color name="colorSecondary">#BF0818</color>
+    <color name="colorYellowLogin">#FCE000</color>
+    <color name="colorTextInsideYellow">#3D1E1F</color>
+    <color name="subDarkGray">#AAAAAA</color>
+    <color name="colorFacebookBackground">#3B5998</color>
+    <color name="validation">#3a0005</color>
+    <color name="facebookBackground">#1977f3</color>
+    <color name="black_shadow">#CC000000</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="dialog_background">#B3000000</color>
+    <color name="yellow">#EFC75E</color>
+    <color name="ongoing_contest_card_color">#101B1E</color>
+    <color name="gray">#4F4F4F</color>
+    <color name="light_black">#0D0D0F</color>
+    <color name="seek_bar_inactive">#3d3d3f</color>
+    <color name="alert_dialog_background">#BF1E1E1E</color>
+    <color name="greyFiftyOpacity">#80292929</color>
+    <color name="fullscreenBtnBackground">#80454545</color>
+    <color name="mediaControlText">#FFBEBEBE</color>
+    <color name="musicItemBackground">#0d0d0f</color>
+    <color name="ongoingContestBackground">#030f12</color>
+    <color name="border_color">#797979</color>
+    <color name="light_green">#4cd964</color>
+    <color name="yellow_sunflower">#ffcc00</color>
+    <color name="blue">#007aff</color>
+    <color name="transparent_border">#1F1F1F</color>
+    <color name="transparent_background">#17000000</color>
+    <color name="transparent_black">#A6000000</color>
+    <color name="scarletButtobBorder">#BF0818</color>
+    <color name="writepostBackground">#212121</color>
+    <color name="subDarkGrey">#AAAAAA</color>
+    <color name="priorityText">#4f4f4f</color>
+    <color name="closed_contest_color">#c4c4c4</color>
+
+
+
+
+    <color name="colorGrayAlpha">#80000000</color>
+    <color name="colorBlue">#0e1f2f</color>
+    <color name="colorTextGray">#ADADAD</color>
+    <color name="colorBg">#3be3e3</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGridLine">#00ed1b24</color>
+    <color name="colorSelectionBorder">#9c41bc</color>
+    <color name="colorWaveformBg">#253571</color>
+    <color name="colorPlaybackIndicator">#b2253571</color>
+    <color name="colorTimeCode">#dd253571</color>
+    <color name="colorTimeCodeShadow">#aa253571</color>
+    <color name="waveformSelected">#adb5cc</color>
+    <color name="waveformUnselected">#adb5cc</color>
+    <color name="waveformUnselectedBackground">#e8e6e7</color>
+
+
+    <array name="mdcolor_500">
+        <item name="red_500" type="color">#e51c23</item>
+        <item name="purple_500" type="color">#9c27b0</item>
+        <item name="indigo_500" type="color">#3f51b5</item>
+        <item name="blue_500" type="color">#5677fc</item>
+        <item name="light_blue_500" type="color">#03a9f4</item>
+        <item name="green_500" type="color">#259b24</item>
+        <item name="lime_500" type="color">#cddc39</item>
+        <item name="yellow_500" type="color">#ffeb3b</item>
+        <item name="deep_orange_500" type="color">#ff5722</item>
+        <item name="brown_500" type="color">#795548</item>
+        <item name="grey_500" type="color">#9e9e9e</item>
+        <item name="blue_grey_500" type="color">#607d8b</item>
+        <item name="black_500" type="color">#000000</item>
+
+        <item name="red_900" type="color">#b0120a</item>
+        <item name="purple_900" type="color">#4a148c</item>
+        <item name="indigo_900" type="color">#1a237e</item>
+        <item name="cyan_900" type="color">#006064</item>
+        <item name="green_900" type="color">#0d5302</item>
+        <item name="lime_900" type="color">#827717</item>
+        <item name="deep_orange_900" type="color">#bf360c</item>
+        <item name="grey_900" type="color">#212121</item>
+        <item name="blue_grey_900" type="color">#263238</item>
+    </array>
+
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FFFFFF</color>
+
+        <!-- 1st Gradient color -->
+        <color name="colorPurple_A400">#D500F9</color>
+        <color name="colorPurple_900">#4A148C</color>
+        <!-- ./ 1st Gradient color -->
+
+        <!-- 2nd Gradient color -->
+        <color name="colorAmber_A400">#FFC400</color>
+        <color name="colorAmber_900">#FF6F00</color>
+        <!-- ./ 2nd Gradient color -->
+
+        <!-- 3rd Gradient color -->
+        <color name="colorGreen_A400">#00E676</color>
+        <color name="colorGreen_900">#1B5E20</color>
+        <!-- ./ 3rd Gradient color -->
+
+        <!-- 4th Gradient color -->
+        <color name="colorRed_A400">#FF1744</color>
+        <color name="colorRed_900">#B71C1C</color>
+        <!-- ./ 4th Gradient color -->
+
+    </resources>

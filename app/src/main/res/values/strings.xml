@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HousingApp</string>
+    <string name="hintTxtItem">Name(Flat Number)</string>
+    <string name="lblBtnAdd">Join Society</string>
+    <string name="txtEmpty">List is empty</string>
+</resources>

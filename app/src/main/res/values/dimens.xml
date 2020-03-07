@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_5dp">5dp</dimen>
+    <dimen name="confetti_default_elevation">9999dp</dimen>
+    <!-- Default configuration for some common confetti animations -->
+    <dimen name="default_confetti_size">6dp</dimen>
+    <dimen name="big_confetti_size">36dp</dimen>
+
+    <dimen name="default_velocity_slow">50dp</dimen>
+    <dimen name="default_velocity_normal">100dp</dimen>
+    <dimen name="default_velocity_fast">200dp</dimen>
+
+    <dimen name="default_explosion_radius">100dp</dimen>
+
+    <dimen name="textsize14">14sp</dimen>
+    <dimen name="px17">17dp</dimen>
+    <dimen name="px16">16dp</dimen>
+    <dimen name="px5">5dp</dimen>
+    <dimen name="px14">14dp</dimen>
+    <dimen name="px20">20dp</dimen>
+    <dimen name="px18">18dp</dimen>
+    <dimen name="px24">24dp</dimen>
+    <dimen name="px94">94dp</dimen>
+    <dimen name="px51">51dp</dimen>
+    <dimen name="px7">7dp</dimen>
+    <dimen name="px36">36dp</dimen>
+    <dimen name="px8">8dp</dimen>
+    <dimen name="px22">22dp</dimen>
+    <dimen name="px31">31dp</dimen>
+    <dimen name="textsize22">22sp</dimen>
+    <dimen name="px40">40dp</dimen>
+    <dimen name="px15">15dp</dimen>
+    <dimen name="px13">13dp</dimen>
+    <dimen name="textsize12">12sp</dimen>
+    <dimen name="px50">50dp</dimen>
+    <dimen name="px124">124dp</dimen>
+    <dimen name="px70">70dp</dimen>
+    <dimen name="px37">37dp</dimen>
+    <dimen name="px10">10dp</dimen>
+    <dimen name="px125">125dp</dimen>
+    <dimen name="px30">30dp</dimen>
+    <dimen name="px6">6dp</dimen>
+    <dimen name="px12">12dp</dimen>
+    <dimen name="px4">4dp</dimen>
+    <dimen name="px1dot7">1.7dp</dimen>
+    <dimen name="px11">11dp</dimen>
+
+</resources>
